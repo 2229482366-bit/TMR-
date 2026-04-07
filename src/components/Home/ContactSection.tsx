@@ -4,7 +4,7 @@ function ContactSection() {
   return (
     <section
       id="contact"
-      className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen bg-[#1A1817] px-6 py-20 text-center text-white md:py-28"
+      className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen scroll-mt-24 bg-[#1A1817] px-6 py-20 text-center text-white md:scroll-mt-28 md:py-28"
     >
       <div className="mx-auto w-full max-w-3xl">
         <p className="text-xs tracking-widest text-gray-400">GET IN TOUCH</p>

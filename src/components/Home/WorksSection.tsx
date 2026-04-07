@@ -5,7 +5,10 @@ import { works } from '../../data/works'
 
 function WorksSection() {
   return (
-    <section id="works" className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen bg-[#F6F3EC] py-16 md:py-24">
+    <section
+      id="works"
+      className="home-section-tone-b relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen scroll-mt-24 py-16 md:scroll-mt-28 md:py-24"
+    >
       <div className="mx-auto w-full max-w-6xl px-4 md:px-8">
         <motion.div
           initial={{ opacity: 0, y: 12 }}
@@ -15,14 +18,14 @@ function WorksSection() {
           className="mb-8 md:mb-10"
         >
           <p className="mb-2 text-xs tracking-[0.25em] text-textMuted">SELECTED WORKS</p>
-          <h2 className="mb-3 text-3xl font-normal text-textMain md:text-4xl">作品 Works</h2>
+          <h2 className="mb-3 text-3xl font-normal text-warm-title md:text-4xl">作品 Works</h2>
           <p className="max-w-3xl leading-8 text-textMuted">
             这里收录了我在数据分析与产品设计方向的代表项目。每个项目都围绕真实问题展开，
             从洞察、方案到落地，持续打磨“可理解、可执行、可复用”的产品体验。
           </p>
         </motion.div>
 
-        <div className="max-h-[520px] overflow-y-auto border border-[#DED8CA]">
+        <div className="max-h-[520px] overflow-y-auto rounded-card border border-[#DED8CA]">
           {works.map((project, index) => (
             <Link
               key={project.id}
@@ -34,7 +37,7 @@ function WorksSection() {
               </span>
 
               <div>
-                <h3 className="mb-1 text-2xl font-normal text-textMain transition-colors group-hover:text-black">
+                <h3 className="mb-1 text-2xl font-normal text-warm-title transition-colors group-hover:text-textMain">
                   {project.title}
                 </h3>
                 <p className="max-w-3xl leading-8 text-textMuted">{project.summary}</p>

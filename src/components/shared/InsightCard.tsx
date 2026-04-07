@@ -24,6 +24,17 @@ function InsightCard({ article }: InsightCardProps) {
       </h3>
 
       <p className="text-base leading-8 text-textMuted">{article.summary}</p>
+
+      <div className="mt-5 flex flex-wrap gap-2">
+        {article.tags.map((tag) => (
+          <span
+            key={tag}
+            className="inline-flex items-center rounded-full border border-warm-accent/70 px-3 py-1 text-xs text-textMuted"
+          >
+            #{tag}
+          </span>
+        ))}
+      </div>
     </motion.article>
   )
 }

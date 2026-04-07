@@ -32,6 +32,14 @@
     @apply rounded-card bg-warm-card shadow-soft transition-all duration-300;
   }
 
+  .home-section-tone-a {
+    @apply bg-warm-bg;
+  }
+
+  .home-section-tone-b {
+    background-color: #f6f3ec;
+  }
+
   .card-warm-hover {
     @apply hover:-translate-y-1 hover:shadow-lg;
   }
