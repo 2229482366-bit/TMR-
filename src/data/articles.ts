@@ -2,6 +2,16 @@ import type { Article } from '../types/article'
 
 export const articles: Article[] = [
   {
+    id: 'daily-2026-04-19-ai-to-real-world-productivity',
+    title: 'AI 日报｜具身智能加速落地，头部企业进入估值与战略重构期',
+    date: '2026-04-19',
+    readTime: '6 分钟',
+    summary:
+      '今日焦点集中在具身智能的物理世界突破（机器人半马、机器人咖啡师）与产业层面的资本和战略信号（DeepSeek 融资、英伟达业务重心转向）。AI 正从屏幕内能力快速走向真实生产场景。',
+    category: 'daily',
+    tags: ['AI 日报', '具身智能', '机器人', '自动驾驶', '产业动态'],
+  },
+  {
     id: 'from-dashboard-to-decision',
     title: '从看板到决策：如何让数据分析真正驱动业务行动',
     date: '2026-03-18',
