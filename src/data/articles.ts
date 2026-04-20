@@ -2,6 +2,16 @@ import type { Article } from '../types/article'
 
 export const articles: Article[] = [
   {
+    id: 'daily-2026-04-20-ai-embodied-intelligence-and-sora-rumor',
+    title: 'AI 日报｜机器人刷新体能边界，Sora 传闻引发商业化反思',
+    date: '2026-04-20',
+    readTime: '7 分钟',
+    summary:
+      '今日重点聚焦具身智能在现实场景的加速突破（机器人半马夺冠、导盲机器狗落地），以及 Sora 关停传闻背后折射的生成式 AI 商业化压力与 ROI 转向。',
+    category: 'daily',
+    tags: ['AI 日报', '具身智能', '机器人', 'Sora', '产业动态'],
+  },
+  {
     id: 'daily-2026-04-19-ai-to-real-world-productivity',
     title: 'AI 日报｜具身智能加速落地，头部企业进入估值与战略重构期',
     date: '2026-04-19',
