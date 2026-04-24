@@ -2,6 +2,16 @@ import type { Article } from '../types/article'
 
 export const articles: Article[] = [
   {
+    id: 'daily-2026-04-24-openai-price-cut-and-regulation-loop',
+    title: 'AI 日报｜OpenAI 降价与监管成形，行业进入“可用 + 可审计”新阶段',
+    date: '2026-04-24',
+    readTime: '7 分钟',
+    summary:
+      'OpenAI 大幅降价推动企业规模化调用，叠加 SEC 与英国法院在金融与司法环节建立 AI 合规边界，行业竞争从单点模型能力转向成本效率、可审计性与流程闭环。',
+    category: 'daily',
+    tags: ['AI 日报', 'OpenAI', '降价', '监管合规', '多模态'],
+  },
+  {
     id: 'daily-2026-04-23-google-tpu-agentic-ai-race',
     title: 'AI 日报｜Google TPU 8 系列落地，产业竞争进入“重系统时代”',
     date: '2026-04-23',
