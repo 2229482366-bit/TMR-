@@ -2,6 +2,16 @@ import type { Article } from '../types/article'
 
 export const articles: Article[] = [
   {
+    id: 'daily-2026-04-26-compute-platform-and-safety-converge',
+    title: 'AI 日报｜算力、企业平台与安全治理合流，AI 进入重运营阶段',
+    date: '2026-04-26',
+    readTime: '7 分钟',
+    summary:
+      'Anthropic 锁定超大规模 AWS 算力，Google 以 Gemini Enterprise Agent Platform 抢占企业入口，OpenAI 连续发布隐私与红队机制工具；行业竞争正从模型展示转向基础设施、平台分发与治理能力并进。',
+    category: 'daily',
+    tags: ['AI 日报', 'Anthropic', 'Google Cloud', 'OpenAI', 'AI 治理'],
+  },
+  {
     id: 'weekly-2026-04-25-claude-gpt-deepseek-model-selection',
     title: '周报（特报）｜Claude 4.7、GPT-5.5、DeepSeek-V4：能力对比与选型指南',
     date: '2026-04-25',

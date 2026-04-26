@@ -5,6 +5,7 @@ import daily20260422 from './articles/daily-2026-04-22-openai-chip-and-reasoning
 import daily20260423 from './articles/daily-2026-04-23-google-tpu-agentic-ai-race.md?raw'
 import daily20260424 from './articles/daily-2026-04-24-openai-price-cut-and-regulation-loop.md?raw'
 import daily20260425 from './articles/daily-2026-04-25-apple-openelm-and-legal-coherence.md?raw'
+import daily20260426 from './articles/daily-2026-04-26-compute-platform-and-safety-converge.md?raw'
 import weekly20260425 from './articles/weekly-2026-04-25-claude-gpt-deepseek-model-selection.md?raw'
 
 export const articleContents: Record<string, string> = {
@@ -15,5 +16,6 @@ export const articleContents: Record<string, string> = {
   'daily-2026-04-23-google-tpu-agentic-ai-race': daily20260423,
   'daily-2026-04-24-openai-price-cut-and-regulation-loop': daily20260424,
   'daily-2026-04-25-apple-openelm-and-legal-coherence': daily20260425,
+  'daily-2026-04-26-compute-platform-and-safety-converge': daily20260426,
   'weekly-2026-04-25-claude-gpt-deepseek-model-selection': weekly20260425,
 }
