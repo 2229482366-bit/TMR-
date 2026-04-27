@@ -2,6 +2,16 @@ import type { Article } from '../types/article'
 
 export const articles: Article[] = [
   {
+    id: 'daily-2026-04-27-ai-from-virtual-to-physical',
+    title: 'AI 日报｜AI 从虚拟走向物理，算力与资产逻辑同步重估',
+    date: '2026-04-27',
+    readTime: '7 分钟',
+    summary:
+      '亚洲半导体资本权重上升、GPU 被重估为另类资产、农业与电池等实体场景加速落地；叠加中美模型性能差距收敛，行业主线从“模型演示”转向“物理产业 + 资本配置”的双轮驱动。',
+    category: 'daily',
+    tags: ['AI 日报', 'GPU 资产化', '半导体', 'Stanford HAI', '产业落地'],
+  },
+  {
     id: 'daily-2026-04-26-compute-platform-and-safety-converge',
     title: 'AI 日报｜算力、企业平台与安全治理合流，AI 进入重运营阶段',
     date: '2026-04-26',
